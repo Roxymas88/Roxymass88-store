@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Afiliasi - Produk Pilihan Berkualitas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo">ðŸ›ï¸ Toko Afiliasi Premium</h1>
+                <p class="tagline">Produk Pilihan Berkualitas dengan Harga Terbaik</p>
+            </div>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Cari produk...">
+                <button id="searchBtn">ðŸ”</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Category Filter -->
+    <nav class="category-nav">
+        <div class="container">
+            <button class="category-btn active" data-category="semua">Semua</button>
+            <button class="category-btn" data-category="hewan">Hewan</button>
+            <button class="category-btn" data-category="elektronik">Elektronik</button>
+            <button class="category-btn" data-category="fashion">Fashion</button>
+            <button class="category-btn" data-category="rumah">Rumah Tangga</button>
+            <button class="category-btn" data-category="olahraga">Olahraga</button>
+            <button class="category-btn" data-category="dekorasi">Dekorasi</button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Intro Section -->
+            <section class="intro-section">
+                <h2>Selamat Datang!</h2>
+                <p>Kami menyediakan pilihan produk terbaik dari Shopee. Setiap produk telah dipilih dengan cermat untuk memastikan kualitas dan nilai terbaik untuk Anda.</p>
+            </section>
+
+            <!-- Products Grid -->
+            <section class="products-section">
+                <h2>Produk Pilihan</h2>
+                <div id="productGrid" class="product-grid">
+                    <!-- Products akan dimuat oleh JavaScript -->
+                </div>
+                <div id="noResults" class="no-results" style="display: none;">
+                    <p>Produk tidak ditemukan. Coba pencarian lain.</p>
+                </div>
+            </section>
+
+            <!-- Footer CTA -->
+            <section class="cta-section">
+                <h2>Menemukan Produk Impian Anda?</h2>
+                <p>Klik tombol di bawah untuk melihat lebih detail dan melakukan pembelian di Shopee</p>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Toko Afiliasi. Semua tautan adalah tautan afiliasi Shopee. Kami mendapatkan komisi dari setiap pembelian tanpa biaya tambahan untuk Anda.</p>
+            <p>Kualitas produk dan layanan pelanggan adalah prioritas utama kami.</p>
+        </div>
+    </footer>
+
+    <script src="products.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
